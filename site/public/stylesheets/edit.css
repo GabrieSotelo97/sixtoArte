@@ -8,19 +8,20 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 35px;
 }
 .edit main h2{
     text-align: center;
     margin: 10px;
     width: 100%;
-    color: var(--azulOscuro);
+    color: var(--azul);
     font-weight: 900;
 }
 .edit main .form{
     display: flex;
     flex-direction: column;
     width: 95%;
-    background-color: var(--azulOscuro);
+    box-shadow: 1px 0px 5px 4px rgba(0,0,0,0.125);
     align-items: center;
     max-width: 740px;
     border-radius: 20px;
@@ -29,18 +30,28 @@
     display: flex;
     flex-direction: column;
     width: 95%;
-    
+    align-items: center;
 }
 .edit main .cancel button{
    border-color: var(--azulOscuro);
     padding: 3px;
+    max-width: 443px;
 }
 .edit main form button{
-    margin:15px auto;
-    font-size: 18px;
+    width: 60%;
+    padding: 8px 10px;
+   font-size: 15px;
+   border: 0px;
+   background:  var(--azul);
+   color: #fff;
+   cursor: pointer;
+   border-radius: 3px;
+   text-align: center; 
+   margin-top: 10px;
+   margin-bottom: 10PX;
 }
 .edit main form label{
-    color: white;
+    
     font-weight: 900;
     margin-top: 20px;
     width: 95%;
@@ -49,7 +60,14 @@
 .edit main form input{
     font-size: 18px;
     border-radius: 6px;
-    border-color: white;
+    border: 2px var(--azul) solid;
+    max-width: 630px;
+    width: 95%;
+}
+.edit main form input.file{
+    font-size: 18px;
+    border-radius: 0;
+    border: none;
     max-width: 630px;
     width: 95%;
 }
@@ -57,7 +75,7 @@
     width: 95%;
     text-align: center;
     font-size: 18px;
-    
+    border-color: var(--azulOscuro);
 }
 .edit small{
     color: red;
@@ -73,9 +91,9 @@ width: 90%;
         font-size: 18px;
     }
     .edit select{
-        width: 85%;
+        
         border-radius: 6px;
-        border-color: white;
+        max-width: 630px;
     }
     .carga  .preview2{
         margin-top: 15px;

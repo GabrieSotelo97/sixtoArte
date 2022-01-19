@@ -10,10 +10,10 @@
    <%- include('../partials/header') %> 
 
    <main >
-    <h2>EDITAR PRODUCTO</h2>
+    
 
     <form class="form" action="/admin/<%= productEdit.id %>?_method=PUT" method="POST" enctype="multipart/form-data" id="form">
-
+      <h2>EDITAR PRODUCTO</h2>
         <label for="nombre">Nombre del Producto</label>                             
         <input type="text" name="nombre" value="<%= productEdit.name %>" id="nombre" >
         <small class="smallJS30"></small>
@@ -64,7 +64,7 @@
           <% } %>
  
           <label for="">suba una imagen</label>
-          <input type="file" name="image" value="<%= imagen %>" id="image">
+          <input type="file" name="image" value="<%= imagen %>" id="image" class="file">
 
           <div class="preview2" id="preview2"></div>
 

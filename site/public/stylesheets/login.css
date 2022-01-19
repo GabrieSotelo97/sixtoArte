@@ -82,6 +82,39 @@ input[type=checkbox]{
 .login .contenedor .form .contenedorA:last-child{
   margin-bottom: 0;
 }
+.login .fa-eye{
+  position: absolute;
+  right: 3%;
+  top: 53%;
+  font-size: 20px;
+  color: var(--azul);
+}
+.login .contenedorA{
+  position: relative;
+}
+.login .fa-eye-slash{
+  color: var(--azul);
+  position: absolute;
+  right: 3%;
+  top: 53%;
+  font-size: 20px;
+}
+
+
+
+
+@media (min-width: 610px){
+
+  .login .fa-eye, .login .fa-eye-slash{
+    
+  font-size: 25px;
+    
+  }
+
+
+
+}
+
 @media(min-width:769px){
 .login .contenedor {
   margin-top: 150px;  

@@ -158,7 +158,7 @@
         display: block;
         position: relative;
         margin-top: 150px;
-        box-shadow: 0 0 0 10px var(--azul), 0 15px 50px;
+        box-shadow: 0 0 0 4px var(--azul), 0 15px 50px;
         overflow: hidden;
     }
     

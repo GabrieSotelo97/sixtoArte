@@ -71,3 +71,9 @@ img{
 .blanco3{
     color: #eae7e7 !important;
 }
+.visible{
+    display: block;
+}
+.invisible{
+    display: none;
+}

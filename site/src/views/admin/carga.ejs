@@ -10,9 +10,10 @@
    <%- include('../partials/header') %> 
 
    <main >
-    <h2>CARGA DE PRODUCTO</h2>
+    
 
     <form class="form" action="/admin/" method="POST" enctype="multipart/form-data" id="form">
+      <h2>CARGA DE PRODUCTO</h2>
 
         <label for="nombre">Nombre del Producto</label>
           <input type="text" name="nombre" placeholder="nombre del producto" id="nombre" value=<%= locals.old && old.nombre ? old.nombre : null %>>

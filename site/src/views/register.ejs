@@ -53,29 +53,35 @@
             
         </div> 
         <div class="preview2" id="preview3"></div>
-       <div class="conteinerB">
+       <div class="conteinerB conteinerB2">
 
           <label for="contraseña">Contraseña</label>
-          <input type="password" class="input" name="pass" id="contraseña" >
-          <small class="smallJS5"></small>
-          <% if(locals.errors && errors.pass){ %>
-            <small> <%= errors.pass.msg %> </small>
-          <% } %> 
+          <i class="fas fa-eye"></i>
+          <i class="fas fa-eye-slash invisible"></i>
+          <input type="password" class="input" name="pass" id="contraseña" > 
+          
        </div>  
-      <div class="conteinerB">
+       <div><small class="smallJS5"></small></div>
+          
+          <% if(locals.errors && errors.pass){ %>
+            <small > <%= errors.pass.msg %> </small>
+          <% } %> 
+      <div class="conteinerB conteinerB2">
 
           <label for="confirm">Confirmar Contraseña</label>
+          <i class="fas fa-eye fa-eye2"></i>
+          <i class="fas fa-eye-slash fa-eye-slash2 invisible"></i>
           <input type="password" class="input" name="confirmpassword" id="confirm">
-          <small class="smallJS6"></small>
-          <% if(locals.errors && errors.confirmpassword){ %>
-            <small> <%= errors.confirmpassword.msg %> </small>
-          <% } %> 
+          
        </div> 
-     
-       <div class="conteinerB">
+       <small class="smallJS6"></small>
+       <% if(locals.errors && errors.confirmpassword){ %>
+         <small> <%= errors.confirmpassword.msg %> </small>
+       <% } %> 
+       <div class="conteinerB conteinerB2">
         <input type="submit" value="Registrarse" class="btn">
       </div>        
-      <div class="conteinerB">
+      <div class="conteinerB conteinerB2">
         <input type="reset" value="Eliminar Datos" class="btn">
       </div>
     </div>   

@@ -281,4 +281,41 @@ document.getElementById("image").onchange = (e)=> {
      body.classList.toggle('fondoNegro2')
      conteiner.classList.toggle('fondoNegro3')
     })
+
+
+    const eyeLogin =qs('.fa-eye')
+    const eyeLogin2 =qs('.fa-eye-slash')
+    const eyeLogin3 =qs('.fa-eye2')
+    const eyeLogin4 =qs('.fa-eye-slash2')
+
+    eyeLogin.addEventListener('click', (e) =>{
+        contraseña.type = 'text'
+        eyeLogin.classList.toggle('invisible')
+        eyeLogin2.classList.toggle('invisible')
+       })
+       eyeLogin2.addEventListener('click', (e) =>{
+        contraseña.type = 'password'
+        eyeLogin.classList.toggle('invisible')
+        eyeLogin2.classList.toggle('invisible')
+       })
+
+
+       eyeLogin3.addEventListener('click', (e) =>{
+        comfirmacion.type = 'text'
+        eyeLogin3.classList.toggle('invisible')
+        eyeLogin4.classList.toggle('invisible')
+       })
+       eyeLogin4.addEventListener('click', (e) =>{
+        comfirmacion.type = 'password'
+        eyeLogin3.classList.toggle('invisible')
+        eyeLogin4.classList.toggle('invisible')
+       })
+
+
+
+
+
+
+
+
 })

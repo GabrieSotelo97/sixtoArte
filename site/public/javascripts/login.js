@@ -22,6 +22,7 @@ window.addEventListener('load',()=>{
     const contraseña = qs('#contraseña')
     const small7 =qs('.small7')
     const small8 =qs('.small8')
+
     let usuario 
     let contra
     
@@ -107,5 +108,18 @@ window.addEventListener('load',()=>{
    })
 
 
+   const eyeLogin =qs('.fa-eye')
+   const eyeLogin2 =qs('.fa-eye-slash')
+
+   eyeLogin.addEventListener('click', (e) =>{
+    contraseña.type = 'text'
+    eyeLogin.classList.toggle('invisible')
+    eyeLogin2.classList.toggle('invisible')
+   })
+   eyeLogin2.addEventListener('click', (e) =>{
+    contraseña.type = 'password'
+    eyeLogin.classList.toggle('invisible')
+    eyeLogin2.classList.toggle('invisible')
+   })
 
 })

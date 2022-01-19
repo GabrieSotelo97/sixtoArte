@@ -28,12 +28,15 @@
 }
 .register .conteiner .form small{
   color: red;
+  width: 100%;
+  
 }
 
 .register .conteiner .form .conteinerB{
   margin-bottom: 15px;
   display: flex;
   align-items: center;
+  flex-direction: column;
 }
 
 .register .conteiner .form .conteinerB label{
@@ -83,6 +86,34 @@
   color: green;
 }
 
+.register .fa-eye{
+  position: absolute;
+  right: 3%;
+  top: 50%;
+  font-size: 20px;
+  color: var(--azul);
+}
+.register .conteinerB{
+  position: relative;
+}
+.register .fa-eye-slash{
+  color: var(--azul);
+  position: absolute;
+  right: 3%;
+  top: 50%;
+  font-size: 20px;
+}
+.register .smallJS5{
+  margin-bottom: 15px;
+}
+
+.register .conteiner .form .conteinerB2{
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+
+
+
 @media (min-width: 769px) {
   .register .conteiner {
     margin-top: 150px;   
@@ -100,5 +131,19 @@
   .register .conteiner .form .conteinerB label{
     margin-bottom: 8px;
     font-size: 15px;
-  }  
+  }
+  
+  .register .fa-eye{
+    
+    
+    top: 59%;
+    font-size: 20px;
+    
+  }
+  
+  .register .fa-eye-slash{
+    
+    top: 59%;
+    font-size: 20px;
+  }
 }
