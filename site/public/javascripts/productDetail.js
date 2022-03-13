@@ -14,11 +14,12 @@ window.onload = function () {
     darkModeButton.addEventListener("click", (e) => {
         h2.classList.toggle('blanco')
         body.classList.toggle('fondoNegro2')
-        main.classList.toggle('fondoNegro')
+        main.classList.toggle('fondoNegro2')
         principio.classList.toggle('fondoNegro2')
         h4.classList.toggle('blanco')
         p.classList.toggle('blanco')
         h3.classList.toggle('fondoNegro')
+        h3.classList.toggle('blanco')
         relacionado.classList.toggle('fondoNegro')
        })
 }

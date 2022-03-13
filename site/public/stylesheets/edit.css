@@ -4,7 +4,7 @@
 
 .edit main{
     padding-bottom: 150px;
-    background-color: white;
+    
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -14,7 +14,7 @@
     text-align: center;
     margin: 10px;
     width: 100%;
-    color: var(--azul);
+    color: var(--marron);
     font-weight: 900;
 }
 .edit main .form{
@@ -25,6 +25,7 @@
     align-items: center;
     max-width: 740px;
     border-radius: 20px;
+    background-color: white;
 }
 .edit main .cancel{
     display: flex;
@@ -33,7 +34,7 @@
     align-items: center;
 }
 .edit main .cancel button{
-   border-color: var(--azulOscuro);
+   border-color: var(--marron2);
     padding: 3px;
     max-width: 443px;
 }
@@ -42,7 +43,7 @@
     padding: 8px 10px;
    font-size: 15px;
    border: 0px;
-   background:  var(--azul);
+   background:  var(--marron);
    color: #fff;
    cursor: pointer;
    border-radius: 3px;
@@ -60,7 +61,7 @@
 .edit main form input{
     font-size: 18px;
     border-radius: 6px;
-    border: 2px var(--azul) solid;
+    border: 2px var(--marron2) solid;
     max-width: 630px;
     width: 95%;
 }
@@ -75,7 +76,7 @@
     width: 95%;
     text-align: center;
     font-size: 18px;
-    border-color: var(--azulOscuro);
+    border-color: var(--marron);
 }
 .edit small{
     color: red;

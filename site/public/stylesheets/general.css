@@ -2,10 +2,12 @@
 
 :root{
     --letra:'Kaisei Tokumin', serif;
-    --azul:#4592AF;
-    --azulOscuro:#0c779e;
+    --azul:#D1E1E6;
+    --azulOscuro:#6D8F99;
     --grafito:#1c1c1c;
-    --cian:#01b3a7;
+    --principal:#E5DBD1;
+    --marron:#998A7C;
+    --marron2:#574e46;
     --caja:rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
@@ -21,6 +23,7 @@ body{
     max-width: 1440px;
     margin: 0 auto;
     position: relative;
+    background-color: var(--principal);
 }
 li{
     list-style: none;
@@ -36,19 +39,19 @@ img{
     color: white;
 }
 .negro{
-    color: black;
+    color: black !important; 
 }
 .blanco{
-    color: white;
+    color: var(--azul) !important;
 }
 .azul{
-    color: var(--azul);
+    color: var(--azulOscuro);
 }
 .fondoNegro{
-    background-color: rgb(46, 45, 45);
+    background-color: var(--marron) !important;
 }
 .fondoNegro2{
-    background-color: rgb(116, 114, 114) !important;
+    background-color: var(--marron2) !important;
 }
 .fondoBlanco{
     background-color: white;

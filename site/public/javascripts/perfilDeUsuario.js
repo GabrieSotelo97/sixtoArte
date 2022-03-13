@@ -5,7 +5,7 @@ window.onload = function (){
 let darkModeButton = document.querySelector(".botonDark");
 
 darkModeButton.addEventListener('click',()=>{
-    main.classList.toggle('fondoNegro')
+    main.classList.toggle('marron')
     
     ul.classList.toggle('blanco')
 

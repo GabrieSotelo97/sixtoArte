@@ -53,7 +53,7 @@ window.addEventListener('load',()=>{
     let main = document.querySelector(".home");
     
     let p2 = document.querySelectorAll("p");
-    let carrito = document.querySelectorAll('.fa-shopping-cart')
+    let carrito = document.querySelectorAll('.home section article div .icons2 i.fa-shopping-cart')
     let body = document.querySelector('.bodyHome')
     let i = document.querySelector('.fas fa-chevron-circle-up') 
     
@@ -61,7 +61,7 @@ window.addEventListener('load',()=>{
     
       
       darkModeButton.addEventListener('click',()=>{
-        main.classList.toggle('fondoNegro')
+        main.classList.toggle('fondoNegro2')
 
         p2.forEach(parrafo =>{
           parrafo.classList.toggle('blanco')
@@ -69,9 +69,7 @@ window.addEventListener('load',()=>{
         carrito.forEach(car =>{
           car.classList.toggle('blanco') 
         })
-        carrito.forEach(car =>{
-          car.classList.toggle('fondoNegro') 
-        })
+        
         body.classList.toggle('fondoNegro2')
       })
     

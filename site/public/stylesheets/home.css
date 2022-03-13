@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
     position: relative;
+    background-color: var(--principal);
 }
 .home .carrousel{
     
@@ -25,12 +26,12 @@
     flex-direction: column;
     justify-content: flex-end;
     width: 100%;
-    border: 4px solid var(--azul);
+    border: 4px solid var(--azulOscuro);
     margin-top: 50px;
     border-radius: 5%;
     padding-bottom: 10px;
     text-align: center;
-    box-shadow: var(--azul) 0px 13px 27px -5px, var(--grafito) 0px 8px 16px -8px;
+    box-shadow: var(--azul) 0px 13px 27px -5px, var(--azulOscuro) 0px 8px 16px -8px;
 }
 .home section article a{
     display: flex;
@@ -61,7 +62,7 @@
     padding:0 5px;
     margin-bottom: 10px;
     font-weight: 700;
-    border-top: 2px solid var(--azul);
+    border-top: 2px solid var(--azulOscuro);
     
 }
 .home section article div p.precio{
@@ -107,7 +108,7 @@
 }
 
 .home .top a i{
-    color: var(--cian);
+    color: var(--azulOscuro);
     font-size: 28px;
     background-color: #FFFFFF;
     border-radius: 25px;
@@ -158,7 +159,7 @@
         display: block;
         position: relative;
         margin-top: 150px;
-        box-shadow: 0 0 0 4px var(--azul), 0 15px 50px;
+        box-shadow: 0 0 0 4px var(--marron), 0 15px 50px;
         overflow: hidden;
     }
     
@@ -190,7 +191,7 @@
         border-radius: 50%;
     }
     .home .carrousel .flechal i:hover{
-        color: var(--azul);
+        color: var(--azulOscuro);
         
     }
     
@@ -203,7 +204,7 @@
         border-radius: 50%;
     }
     .home .carrousel .flechar i:hover{
-        color: var(--azul);
+        color: var(--azulOscuro);
         
     }
     
@@ -252,7 +253,7 @@
         border-radius: 30px;
         width: 45%;
         padding-top: 2px;
-                
+        border-color: transparent;
     }
     .home section article div .icons2 i.fa-heart{
         order:2;
@@ -270,7 +271,7 @@
 /* --------------animaciones----------------------------- */
 
         .home section article:hover{
-            box-shadow: var(--azul) 0px 13px 27px -5px, var(--grafito) 0px 8px 16px -8px;
+            box-shadow: var(--marron) 0px 13px 27px -5px, var(--grafito) 0px 8px 16px -8px;
             transform: scale(1.1);
         }
         .home section article div .icons2 i.fa-heart:hover{

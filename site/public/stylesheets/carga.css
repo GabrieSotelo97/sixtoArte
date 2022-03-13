@@ -14,7 +14,7 @@
     text-align: center;
     margin: 10px;
     width: 100%;
-    color: var(--azulOscuro);
+    color: var(--marron2);
     font-weight: 700;
 }
 .carga main .form{
@@ -26,6 +26,7 @@
     max-width: 740px;
     border-radius: 20px;
     margin-top: 25px;
+    background-color: white;
 }
 .carga main .form small{ 
     color: rgb(255, 0, 0);
@@ -46,7 +47,7 @@
     padding: 8px 10px;
    font-size: 15px;
    border: 0px;
-   background:  var(--azul);
+   background:  var(--marron2);
    color: #fff;
    cursor: pointer;
    border-radius: 3px;
@@ -58,7 +59,7 @@
    padding: 8px 10px;
   font-size: 15px;
   border: 0px;
-  background:  var(--azul);
+  background:  var(--marron2);
   color: #fff;
   cursor: pointer;
   border-radius: 3px;
@@ -69,7 +70,7 @@
     margin-left: 10px;
    font-size: 14px;
    font-weight: 900;
-   color: var(--azul);
+   color: var(--marron2);
 }
 .carga main form input{
     width: 85%;

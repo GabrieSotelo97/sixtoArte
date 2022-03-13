@@ -21,10 +21,10 @@
     text-align: center;
     margin-bottom: 15px;
     color: black;
-    border: 2px solid var(--azul);
+    border: 2px solid var(--marron2);
     border-radius: 10px;
     padding: 2px;
-    background-color: var(--azul);
+    background-color: var(--marron);
 
 }
 .admin main h3:hover{
@@ -109,7 +109,7 @@
 }
 .admin main section .atributos .delet3 form button{
     border: none;
-    
+    background-color: transparent;
 }
 .admin main section .atributos .delet3 form button i{
     font-size: 18px;

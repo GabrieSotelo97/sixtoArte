@@ -15,7 +15,7 @@
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 25px;
-  color: var(--azul);
+  color: var(--azulOscuro);
   text-transform: uppercase;
   text-align: center;
 }
@@ -70,14 +70,14 @@ input[type=checkbox]{
    padding: 8px 10px;
   font-size: 15px;
   border: 0px;
-  background:  var(--azul);
+  background:  var(--marron2);
   color: #fff;
   cursor: pointer;
   border-radius: 3px;
   text-align: center;    
 }
 .login .contenedor .form .contenedorA .btn:hover{
-  background: var(--azulOscuro);
+  background: var(--marron);
 }
 .login .contenedor .form .contenedorA:last-child{
   margin-bottom: 0;
@@ -87,13 +87,13 @@ input[type=checkbox]{
   right: 3%;
   top: 53%;
   font-size: 20px;
-  color: var(--azul);
+  color: var(--marron);
 }
 .login .contenedorA{
   position: relative;
 }
 .login .fa-eye-slash{
-  color: var(--azul);
+  color: var(--azulOscuro);
   position: absolute;
   right: 3%;
   top: 53%;

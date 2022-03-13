@@ -5,8 +5,10 @@ window.onload = function(){
     let section = document.querySelector('.principio')
     let body = document.querySelector('.detalleAdm')
     let div = document.querySelector('.comprar')
+    let a = document.querySelector('.editar a')
     let div1 = document.querySelector('.trash')
     let article = document.querySelector('.pedidos')
+    let h2 = document.querySelectorAll('h2')
 
     let darkModeButton = document.querySelector(".botonDark");
     
@@ -23,11 +25,17 @@ window.onload = function(){
 
        section.classList.toggle('fondoNegro2')
 
-       div.classList.toggle('fondoNegro2')
+       div.classList.toggle('fondoNegro')
 
-       div1.classList.toggle('fondoNegro2')
+       div1.classList.toggle('fondoNegro')
+       
 
        article.classList.toggle('fondoNegro4')
+
+       h2.forEach(dato =>{
+        dato.classList.toggle('negro2')
+      })
+      a.classList.toggle('blanco')
       })
    
 

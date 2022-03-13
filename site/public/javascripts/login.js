@@ -98,13 +98,14 @@ window.addEventListener('load',()=>{
     let darkModeButton = document.querySelector(".botonDark");
    let body =qs('.login')
     let contenedor = qs('.contenedor')
+    let h1 = qs('.titulolog')
     let label = document.querySelectorAll('label')
     darkModeButton.addEventListener("click", (e) => {
     
         body.classList.toggle('fondoNegro2')
-        contenedor.classList.toggle('fondoNegro3')
-        
-       
+        contenedor.classList.toggle('fondoNegro')
+        contenedor.classList.toggle('fondoBlanco')
+        h1.classList.toggle('blanco')
    })
 
 
