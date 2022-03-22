@@ -72,7 +72,9 @@ window.addEventListener('load',()=>{
         
         body.classList.toggle('fondoNegro2')
       })
+
     
+      
 
 
 })

@@ -12,7 +12,10 @@
     display: none;
     
 }
-
+.cargando{
+    font-size: 30px;
+    text-align: center;
+}
 .home section{
     width: 70%;
     margin: 0 auto;
