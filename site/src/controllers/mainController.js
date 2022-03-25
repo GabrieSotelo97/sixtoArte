@@ -11,6 +11,7 @@ const controller = {
         })
         .then(productos => {            
                 res.render('home', {productos})
+                
             })
             .catch(err => {
                 res.send(err)
@@ -26,7 +27,8 @@ const controller = {
             include: [{association: 'imagen'}]
         })
         .then(productos => {              
-            res.render('home', {productos: productos}) 
+            res.render('2home', {productos: productos}) 
+            
         })
         .catch(err => {
                 res.send(err)

@@ -36,12 +36,31 @@
             </div>
         </div>
 
+
+        <section class="sectionhome2">
+            <% for (let i = 0; i < productos.length; i++) { %>
+                <article>
+                    <a href="/product/detalle/<%= productos[i].id %>">
+                    <div class="imagen">
+                        <img src="../images/productos/<%= productos[i].imagen[0].name %>" alt="">
+                    </div>
+                    <div class="art2">
+                        <p class="descripcion negro" style="text-transform: uppercase">
+                            <%= productos[i].name %>
+                        </p>
+                        <p class="precio negro ">
+                            $<%= productos[i].price %>
+                        </p>
+                        <div class="icons2">
+                            <form action="#" method="POST">
+                                <button type="submit"><i class="fas fa-shopping-cart negro"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </a>
+                </article>
         
-
-        
-
-        <section class="sectionhome">
-
+                <% } %>
             
 
         </section>
@@ -49,8 +68,7 @@
         <div class="top">
             <a href="#"><i class="fas fa-chevron-circle-up"></i></a>
         </div>
-        <script src="/javascripts/home2.js"></script>
-        <script src="/javascripts/home.js"></script>
+        
     </main>
 
     <!-- FOOTER -->

@@ -1,5 +1,4 @@
 window.addEventListener('load', ()=>{
-
     const qs =(tag)=>{
         return document.querySelector(tag)
     }
@@ -9,8 +8,7 @@ window.addEventListener('load', ()=>{
     let validate = false
 
     buscador.addEventListener('input', (e)=>{
-
-        if(e.target.value.length == 0){
+    if(e.target.value.length == 0){
             validate = false
             
             }else{
@@ -22,8 +20,6 @@ window.addEventListener('load', ()=>{
             ef.preventDefault()
         }
         
-
-
     })
 
 
